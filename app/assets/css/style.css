@@ -187,6 +187,7 @@ nav {
   right: 25.3%;
   top: 56%;
   z-index: 1;
+  cursor: pointer;
   transform: translate(0, -50%);
   width: 25px !important;
   height: 25px !important; }
@@ -196,6 +197,7 @@ nav {
   left: 25.3%;
   z-index: 1;
   top: 56%;
+  cursor: pointer;
   transform: translate(0, -50%);
   width: 25px !important;
   height: 25px !important; }

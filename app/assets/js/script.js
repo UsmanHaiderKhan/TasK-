@@ -1,3 +1,5 @@
+AOS.init();
+
 var owl = $("#owl-one");
 owl.owlCarousel({
   autoplay: true,
@@ -12,14 +14,14 @@ owl.owlCarousel({
   responsiveClass: true,
   responsive: {
     0: {
-      items: 4,
+      items: 2,
     },
     600: {
-      items: 4,
+      items: 3,
       autoplay: true,
     },
     768: {
-      items: 4,
+      items: 3,
     },
     1000: {
       items: 4,
