@@ -1,0 +1,14 @@
+#topbar {
+  background-color: $secondary-color;
+  padding: 0.4em;
+  .topbar-text {
+    font-size: 14px;
+    color: $light-color;
+    font-family: $secondary-font;
+    font-weight: 400;
+    &:hover {
+      text-decoration: none;
+      color: $light-color;
+    }
+  }
+}

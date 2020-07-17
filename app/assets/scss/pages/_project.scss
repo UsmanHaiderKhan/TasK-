@@ -1,0 +1,20 @@
+#project {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Artboard 8.png");
+  .project-heading {
+    @include rfs(50px);
+    color: $light-color;
+    text-transform: capitalize;
+    font-family: $primary-font;
+  }
+  .project-desc {
+    font-size: 22px;
+    color: $light-color;
+    font-family: $secondary-font;
+  }
+}

@@ -1,0 +1,60 @@
+#testimonial {
+  .testi-heading {
+    @include rfs(50px);
+    color: $secondary-color;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: $primary-font;
+  }
+  .item {
+    padding: 10px 0;
+  }
+  .slider-area {
+    -webkit-box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    .media-body {
+      padding: 2em 1em 0 0;
+      .slider-text {
+        font-size: 17px;
+        color: $text-color;
+        font-family: $secondary-font;
+      }
+      .comma-sign {
+        width: 25px !important;
+        height: 25px !important;
+      }
+      .client-name {
+        font-size: 20px;
+        color: $secondary-color;
+        text-transform: capitalize;
+        font-family: $secondary-font;
+      }
+      .flag-size {
+        width: 38px !important;
+        height: 27px !important;
+      }
+    }
+  }
+  .arrows {
+    .icon-right {
+      position: absolute;
+
+      right: 25.3%;
+      top: 56%;
+      z-index: 1;
+      transform: translate(0, -50%);
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .icon-left {
+      position: absolute;
+      left: 25.3%;
+      z-index: 1;
+      top: 56%;
+      transform: translate(0, -50%);
+      width: 25px !important;
+      height: 25px !important;
+    }
+  }
+}

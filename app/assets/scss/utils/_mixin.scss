@@ -1,0 +1,15 @@
+/* ===============
+         Mixin
+   =============== */
+@mixin reset-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+@mixin flex-align {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

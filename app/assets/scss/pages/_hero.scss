@@ -1,0 +1,30 @@
+/*================================= 
+        Home Section Styling
+=================================*/
+#home {
+  width: 100%;
+  height: auto;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../images/Artboard-1.png");
+  .main-content {
+    padding: 200px 0 185px 0;
+    text-align: center;
+    justify-content: center;
+    .banner-text {
+      @include rfs(55px);
+      color: $light-color;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: $primary-font;
+    }
+    .banner-desc {
+      font-size: 24px;
+      color: $light-color;
+      font-weight: 400;
+      font-family: $secondary-font;
+    }
+  }
+}

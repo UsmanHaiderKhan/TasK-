@@ -1,0 +1,25 @@
+//variables
+@font-face {
+  font-family: "Titillium-Light";
+  src: url("./../fonts/Titillium-Light.otf");
+  font-weight: light;
+}
+@font-face {
+  font-family: "SemiboldUpright";
+  src: url("./../fonts/Titillium-SemiboldUpright.otf");
+  font-weight: light;
+}
+@font-face {
+  font-family: "Semibold";
+  src: url("./../fonts/Titillium-Semibold.otf");
+  font-weight: light;
+}
+$primary-color: #e08020;
+$secondary-color: #1b5777;
+$text-color: #515151;
+$light-grey: #dddddd;
+$light-color: #ffffff;
+
+$primary-font: "SemiboldUpright";
+$secondary-font: "Titillium-Light";
+$third-font: "Semibold";

@@ -1,0 +1,26 @@
+#client {
+  width: 100%;
+  height: auto;
+  padding: 100px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Artboard 9.png");
+  .client-heading {
+    @include rfs(50px);
+    color: $secondary-color;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: $primary-font;
+  }
+  .client-desc {
+    font-size: 18px;
+    color: $text-color;
+    text-align: center;
+    font-family: $secondary-font;
+  }
+  .company-icons {
+    width: 150px;
+    height: 50px;
+  }
+}

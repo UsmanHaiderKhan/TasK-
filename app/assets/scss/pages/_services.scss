@@ -1,0 +1,27 @@
+/*================================= 
+      Service Section Styling
+=================================*/
+
+#services {
+  padding: 60px 0;
+  background-color: $light-grey;
+  .main-heading {
+    @include rfs(50px);
+    color: $secondary-color;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: $primary-font;
+  }
+  .service-heading {
+    font-size: 24px;
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-family: $third-font;
+  }
+  .service-desc {
+    font-size: 16px;
+    color: $text-color;
+    line-height: 1.7;
+    font-family: $secondary-font;
+  }
+}

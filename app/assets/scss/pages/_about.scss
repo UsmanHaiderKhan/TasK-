@@ -1,0 +1,15 @@
+#aboutus {
+  text-align: center;
+  .about-heading {
+    @include rfs(50px);
+    color: $secondary-color;
+    text-transform: capitalize;
+    font-family: $primary-font;
+  }
+  .about-text {
+    font-size: 21px;
+    line-height: 1.7;
+    color: $text-color;
+    font-family: $secondary-font;
+  }
+}

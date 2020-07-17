@@ -1,0 +1,18 @@
+/*================================= 
+    Introduction Section Styling
+=================================*/
+#introduction {
+  text-align: center;
+  .intro-heading {
+    @include rfs(50px);
+    color: $secondary-color;
+    text-transform: capitalize;
+    font-family: $primary-font;
+  }
+  .intro-text {
+    font-size: 21px;
+    line-height: 1.7;
+    color: $text-color;
+    font-family: $secondary-font;
+  }
+}

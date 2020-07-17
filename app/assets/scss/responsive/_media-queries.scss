@@ -1,0 +1,125 @@
+/*================================= 
+Media Queries Styling
+=================================*/
+@media only screen and (max-width: 1450px) {
+}
+@media only screen and (max-width: 1367px) {
+}
+@media only screen and (max-width: 1150px) {
+}
+@media only screen and (max-width: 1024px) {
+  nav .nav-item {
+    margin: 0 10px;
+  }
+  #testimonial .arrows .icon-left {
+    left: 45.3%;
+    top: unset;
+    transform: translate(0, 0%);
+  }
+  #testimonial .arrows .icon-right {
+    right: 45.3%;
+    top: unset;
+    transform: translate(0, 0%);
+  }
+}
+@media only screen and (max-width: 993px) {
+  #partners .partners-name {
+    font-size: 25px;
+  }
+  .btn-learn {
+    font-size: 16px;
+    padding: 8px 50px;
+  }
+  #partners .bg-card-1 {
+    height: 780px;
+  }
+  #partners .bg-card-2 {
+    height: 780px;
+  }
+  #partners .bg-card-3 {
+    height: 780px;
+  }
+  #partners .bg-card-4 {
+    height: 780px;
+  }
+  #partners .bg-card-5 {
+    height: 780px;
+  }
+  #partners .bg-card-6 {
+    height: 780px;
+  }
+}
+@media only screen and (max-width: 890px) {
+}
+@media only screen and (max-width: 801px) {
+}
+@media only screen and (max-width: 769px) {
+  #partners .bg-card-1 {
+    height: 700px;
+  }
+  #partners .bg-card-2 {
+    height: 700px;
+  }
+  #partners .bg-card-3 {
+    height: 700px;
+  }
+  #partners .bg-card-4 {
+    height: 700px;
+  }
+  #partners .bg-card-5 {
+    height: 700px;
+  }
+  #partners .bg-card-6 {
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 760px) {
+}
+
+@media (max-width: 640px) {
+}
+@media (max-width: 540px) {
+  #testimonial .arrows .icon-left {
+    left: 42.3%;
+  }
+  #testimonial .arrows .icon-right {
+    right: 42.3%;
+  }
+  #partners .partners-name {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 415px) {
+}
+@media only screen and (max-width: 411px) {
+}
+@media only screen and (max-width: 398px) {
+}
+@media only screen and (max-width: 376px) {
+}
+@media only screen and (max-width: 361px) {
+}
+@media only screen and (max-width: 321px) {
+}
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media only screen and (max-width: 1367px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 830px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 732px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 668px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 641px) and (orientation: landscape) {
+}
